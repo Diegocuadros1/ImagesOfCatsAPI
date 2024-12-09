@@ -1,0 +1,69 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-image: url(/img/coolcats.png);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: solid black 2px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+form {
+  border: solid black 2px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 40px 30px;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-align: center;
+}
+
+.cat-content {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 500px;
+  max-height: 500px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
+  img {
+    max-width: 200px;
+  }
+}
