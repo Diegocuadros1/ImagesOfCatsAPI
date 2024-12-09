@@ -1,5 +1,5 @@
 
-# Investment Converter
+# CatImagesAPI
 
 This web application is created to give you random images of cats. Simply write any specific quality tags you want your cat to have, or have it be a gif, then submit and you will see a random picture of a cat.  
 ## Tech Stack
