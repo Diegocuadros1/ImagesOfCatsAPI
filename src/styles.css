@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url(/img/coolcats.png);
+  background-image: url(../public/img/coolcats.png);
 }
 
 main {
